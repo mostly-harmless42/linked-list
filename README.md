@@ -28,4 +28,4 @@ This is the [linked list](https://www.theodinproject.com/paths/full-stack-ruby-o
 
 ## Thoughts
 
-A fun introduction to data structures! It is surprisingly simple to create a singly linked list with objects. Made a version with and without implementation of Ruby's 'each' enumerable method.
+A fun introduction to data structures! It is surprisingly simple to create a singly linked list with objects. Made a version with and without implementation of Ruby's #each method from Enumerable, which I used to simplify code for the #size, #at, #contains?, #find(value), and #to_s methods. 
