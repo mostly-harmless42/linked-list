@@ -97,29 +97,3 @@ class LinkedList
   end
 end
 
-
-linkedlist1 = LinkedList.new
-
-puts linkedlist1
-
-linkedlist1.add(1)
-linkedlist1.append(2)
-linkedlist1.prepend(0)
-
-puts linkedlist1
-
-puts linkedlist1.size
-
-puts linkedlist1.contains?(0)
-puts linkedlist1.pop
-puts linkedlist1
-puts linkedlist1.contains?(2)
-
-puts linkedlist1.find(12)
-puts linkedlist1.find(1)
-linkedlist1.insert_at(0, 2)
-linkedlist1.insert_at(12, 9)
-puts linkedlist1
-
-linkedlist1.remove_at(1)
-puts linkedlist1
